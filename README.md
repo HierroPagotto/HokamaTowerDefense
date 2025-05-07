@@ -8,8 +8,8 @@ Neste projeto, implementamos um algoritmo **exato** que encontra o caminho do jo
 
 ## 📁 Entrada
 
-- O programa recebe um arquivo de texto com nome no formato: `instXX.in`  
-  (por exemplo: `inst01.in`, `instg20.in`, `inst99.in`)
+- O programa recebe um arquivo de texto com nome no formato: `instgXX.in`  
+  (por exemplo: `instg01.in`, `instg20.in`, `instg99.in`)
 
 - O conteúdo do arquivo segue este formato:
   1. A primeira linha contém o número `n`, que representa o tamanho do tabuleiro (`n x n`)
@@ -34,7 +34,7 @@ Neste exemplo:
 
 ## 📤 Saída
 
-- Um arquivo com o nome `solgXX.out`, onde `XX` corresponde ao sufixo da entrada (`instXX.in` → `solgXX.out`).
+- Um arquivo com o nome `solgXX.out`, onde `XX` corresponde ao sufixo da entrada (`instgXX.in` → `solgXX.out`).
 - O conteúdo é uma única linha com letras representando as direções:
 - `S` → Sul (baixo)  
 - `N` → Norte (cima)  
@@ -59,7 +59,7 @@ SSSLLLLS
 
 ## ▶️ Como Executar
 
-1. Coloque o arquivo de entrada `instXX.in` na mesma pasta do script `main.py`
+1. Coloque o arquivo de entrada `instgXX.in` na mesma pasta do script `main.py`
 2. No terminal, execute: python main.py
 3. O programa vai gerar automaticamente o arquivo de saída solgXX.out.
 
