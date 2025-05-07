@@ -61,7 +61,7 @@ SSSLLLLS
 
 1. Coloque o arquivo de entrada `instXX.in` na mesma pasta do script `main.py`
 2. No terminal, execute: python main.py
-3. O programa vai gerar automaticamente o arquivo de saída solXX.out.
+3. O programa vai gerar automaticamente o arquivo de saída solgXX.out.
 
 ## 🧪 Validação Manual
 
