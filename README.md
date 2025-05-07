@@ -77,10 +77,10 @@ Digite um caminho: (ex: SSSLLL)
 
 ## 📌 Regras Atendidas (Checklist)
  
- ✅ Caminho com menor dano total
- ✅ Não pisa em torres
- ✅ Não repete posição
- ✅ Dano das torres acumulado corretamente
- ✅ Saída com direções corretas (S, N, L, O)
- ✅ Arquivos nomeados conforme especificado
- ✅ Algoritmo exato implementado com fila de prioridade (heapq)
+ ✅ Caminho com menor dano total  
+ ✅ Não pisa em torres  
+ ✅ Não repete posição  
+ ✅ Dano das torres acumulado corretamente  
+ ✅ Saída com direções corretas (S, N, L, O)  
+ ✅ Arquivos nomeados conforme especificado  
+ ✅ Algoritmo exato implementado com fila de prioridade (heapq)  
