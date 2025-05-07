@@ -1,4 +1,4 @@
-# Hokama's Tower Defense - Algoritmo de Caminho Ótimo (Menor Dano)
+# Hokama's Tower Defense 
 
 ## 🎮 Objetivo
 
