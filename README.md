@@ -8,9 +8,16 @@ Neste projeto, implementamos um algoritmo **exato** que encontra o caminho do jo
 
 ## 📁 Entrada
 
-- Um arquivo de texto com o nome padrão: `instXX.in`
-- O conteúdo do arquivo começa com o número `n`, seguido por `n` linhas com `n` caracteres cada (`0` ou `T`).
-- Exemplo:
+- O programa recebe um arquivo de texto com nome no formato: `instXX.in`  
+  (por exemplo: `inst01.in`, `instg20.in`, `inst99.in`)
+
+- O conteúdo do arquivo segue este formato:
+  1. A primeira linha contém o número `n`, que representa o tamanho do tabuleiro (`n x n`)
+  2. As próximas `n` linhas representam o tabuleiro, com `n` caracteres em cada linha:
+     - `0` → posição livre
+     - `T` → posição com torre (não pode ser pisada)
+
+### 🔍 Exemplo de entrada (`inst01.in`)
 5
 00T00
 00TT0
@@ -18,10 +25,10 @@ Neste projeto, implementamos um algoritmo **exato** que encontra o caminho do jo
 00000
 0T000
 
-Aqui:
-- `0` representa espaço vazio (pode andar)
-- `T` representa uma torre (não pode passar por cima)
-- Torres atacam nas 4 diagonais ao redor (causam 10 de dano por jogada dentro de seu alcance)
+Neste exemplo:
+- O tabuleiro tem tamanho **5x5**
+- As torres estão posicionadas nos quadrados marcados com `T`
+- O jogador começa na posição `(0, 0)` e deve chegar até `(4, 4)` sem passar por torres e tomando o menor dano possível.
 
 ---
 
