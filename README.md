@@ -34,7 +34,7 @@ Neste exemplo:
 
 ## 📤 Saída
 
-- Um arquivo com o nome `solXX.out`, onde `XX` corresponde ao sufixo da entrada (`instXX.in` → `solXX.out`).
+- Um arquivo com o nome `solgXX.out`, onde `XX` corresponde ao sufixo da entrada (`instXX.in` → `solgXX.out`).
 - O conteúdo é uma única linha com letras representando as direções:
 - `S` → Sul (baixo)  
 - `N` → Norte (cima)  
